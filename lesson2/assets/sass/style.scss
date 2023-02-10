@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.light{
+   --textColor : black;
+   --bgColor : bisque;
+   --mainSectionBg : red;
+}
+
+.dark{
+
+    --textColor :#fff;
+    --bgColor : black;
+    --mainSectionBg :blue;
+}
+
+
+
+header{
+    width: 100%;
+    height: 12vh;
+    background-color: var(--bgColor);
+    h2{
+        color: var(--textColor);
+    }
+}
+
+.main{
+    width: 100%;
+    height: 40vh;
+    background-color: var(--mainSectionBg);
+}
